@@ -3,19 +3,19 @@ class UnitatFormativa:
     nom = None
     nota = None
 
-    def __init__(self, nom, nota):
+    def __init__(self, nom):
         self.nom = nom
-        self.nota = nota
 
 
 # Inici del programa
-uf1 = UnitatFormativa("UF1. Desenvolupament del programari", 10)
-uf2 = UnitatFormativa("UF2. Optimització del programari", 9)
-uf3 = UnitatFormativa("UF3. Introducció al Disseny Orientat a Objectes", 9.5)
+uf1 = UnitatFormativa("UF1. Desenvolupament del programari")
+uf2 = UnitatFormativa("UF2. Optimització del programari")
+uf3 = UnitatFormativa("UF3. Introducció al Disseny Orientat a Objectes")
 
-print(uf1.nom)
-print(uf1.nota)
-print(uf2.nom)
-print(uf2.nota)
-print(uf3.nom)
-print(uf3.nota)
+uf1.nota = 8
+uf2.nota = 10
+uf3.nota = 4
+
+print(uf1.nom, ":", uf1.nota)
+print(uf2.nom, ":", uf1.nota)
+print(uf3.nom, ":", uf1.nota)
