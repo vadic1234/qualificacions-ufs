@@ -9,7 +9,7 @@ class UnitatFormativa:
         self.hores = hores
 
 
-class ModulProfessiona:
+class ModulProfessional:
     nom = None
     unitats_formatives = []
 
@@ -39,7 +39,7 @@ uf1.qualificacio = 8
 uf2.qualificacio = 10
 uf3.qualificacio = 4
 
-mp5 = ModulProfessiona("MP05. Entorns de desenvolupament")
+mp5 = ModulProfessional("MP05. Entorns de desenvolupament")
 
 mp5.afegirUnitatFormativa(uf1)
 mp5.afegirUnitatFormativa(uf2)
