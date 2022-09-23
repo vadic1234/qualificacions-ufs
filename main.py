@@ -1,6 +1,6 @@
 # Definició de classes
-from Modul_Professional import ModulProfessional
-from Unitats_Formatives import UnitatFormativa
+from ModulProfessional import ModulProfessional
+from UnitatFormativa import UnitatFormativa
 
 def inicialitzar_modul_professional():
     global uf1, uf2, uf3, mp5
@@ -22,6 +22,6 @@ def mostrar_modul_professional():
     print(uf3.nom, ":", uf3.qualificacio)
     print(mp5.nom, ":", mp5.get_qualificacio())
 
-#Inici del programa
+# Inici del programa
 inicialitzar_modul_professional()
 mostrar_modul_professional()
