@@ -22,6 +22,6 @@ def mostrar_modul_professional():
     print(uf3.nom, ":", uf3.qualificacio)
     print(mp5.nom, ":", mp5.get_qualificacio())
 
-
+#Inici del programa
 inicialitzar_modul_professional()
 mostrar_modul_professional()
